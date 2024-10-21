@@ -77,7 +77,7 @@ const ATMDemo = () => {
   };
 
   const handleCheckBalance = () => {
-    setMessage(`Your current balance is $${balance}`);
+    setMessage(`Your current balance is ${balance}`);
   };
 
   const closeNotification = () => {
